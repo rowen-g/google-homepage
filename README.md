@@ -3,3 +3,5 @@
 From The Odin Project's Web development 101 (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
 Project:html/css (easy version)
+
+view this project -  https://rowen-g.github.io/google-homepage/.
