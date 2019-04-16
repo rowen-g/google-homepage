@@ -5,36 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="content" id="main">
 
-        <div class="header-container">
+        <!-- <div class="header-container"> -->
             <div class="link-wrapper">
                 <a href="#" title="Gmail link">Gmail</a>
                 <a href="#" title="Images">Images</a>
-                <a href="#" title = 'Google Apps'>a</a>
-                <a href="#" title="user account">
-                    <img src="" alt="user account image">
+                <a href="#" title = 'Google Apps'>
+                    <img src="images/menu.png" alt="menu" class="menu">
+                </a>
+                <a href="#" title="user account" class="user-holder">
+                    <img src="images/bulb.jpg" alt="user account image" class="user">
                 </a>
             </div>
-        </div>
+        <!-- </div> -->
 
         <div class="img-container">
-            <img src="images/google.png" alt="google image">
+            <img src="images/google.png" alt="google image" class="google-image">
         </div>
 
         <div class="search-box-container">
-            <input type="search">
+            <input type="search" title="search">
+            <span>
+                <a>
+                    <img src="images/google-mic.png" title="search by voice" class="google-mic">
+                </a>
+            </span>
         </div>
 
         <div class="btn-wrapper">
-            <button>
+            <!-- <button>
                 <span>Google Search</span>
             </button>
             <button>
                 <span>I'm Feelingl Lucky</span>
-            </button>
+            </button> -->
+            <input type="button" value="Google Search">
+            <input type="button" value="I'm Feeling Lucky">
         </div>
 
         <div class="google-offered-wrapper">
@@ -45,14 +57,25 @@
             </span>
         </div>
 
-        <div class="location-container">
-            <span>Philippines</span>
-        </div>
-
         <div class="footer-container">
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">About</a>
+            
+            <div class="footer">
+
+                <div class="location">Philippines</div>
+                
+                <div class="flex">
+                    <div class="footer-left">
+                        <a href="#">Advertising</a>
+                        <a href="#">Business</a>
+                        <a href="#">About</a>
+                    </div>
+                    <div class="footer-right">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Settings</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
